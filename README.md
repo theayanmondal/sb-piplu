@@ -17,12 +17,15 @@ and evaluation code in one place.
 Sb-PiPLU is defined as
 
 $$
-\mathrm{SbPiPLU}(x,k)=
+\mathrm{Sb\!\text{-}\!PiPLU}(x,k)=
 \begin{cases}
 2\,\mathrm{softsign}(x)
-+\frac{1}{2}\left(\mathrm{softsign}(x)\right)^2, & x\leq 0,\\
-x, & 0<x\leq k,\\
-\frac{x}{k}, & x>k,
++\dfrac{1}{2}\left(\mathrm{softsign}(x)\right)^2,
+& x\leq 0,\\[6pt]
+x,
+& 0\lt x\leq k,\\[6pt]
+\dfrac{x}{k},
+& x\gt k.
 \end{cases}
 $$
 
