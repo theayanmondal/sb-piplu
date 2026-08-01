@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite the associated publication when using this software."
+title: "Sb-PiPLU TensorFlow implementation"
+type: software
+authors:
+  - family-names: Mondal
+    given-names: Ayan
+repository-code: "https://github.com/theayanmondal/sb-piplu"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: Mondal
+      given-names: Ayan
+    - family-names: Shrivastava
+      given-names: Vimal K.
+    - family-names: Chatterjee
+      given-names: Ayan
+    - family-names: Ramachandra
+      given-names: Raghavendra
+  title: "Sb-PiPLU: A Novel Parametric Activation Function for Deep Learning"
+  journal: "IEEE Access"
+  volume: 13
+  year: 2025
+  doi: "10.1109/ACCESS.2025.3561464"

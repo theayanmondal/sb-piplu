@@ -1,0 +1,6 @@
+model,selected_k_initialization,reported_peak_accuracy_percent
+LeNet-5,21,62.03
+VGG11,21,83.49
+AlexNet,21,77.64
+NIN,21,87.46
+ResNet18,21,79.80

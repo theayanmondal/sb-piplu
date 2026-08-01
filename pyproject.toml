@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sb-piplu"
+version = "1.0.0"
+description = "TensorFlow implementation of the trainable Sb-PiPLU activation function"
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+authors = [
+  {name = "Ayan Mondal"}
+]
+dependencies = [
+  "tensorflow==2.16.1",
+  "numpy==1.26.4",
+  "scikit-learn==1.5.1",
+  "matplotlib==3.9.1"
+]
+
+[project.urls]
+Paper = "https://doi.org/10.1109/ACCESS.2025.3561464"
+Repository = "https://github.com/theayanmondal/sb-piplu"
+
+[tool.setuptools.packages.find]
+include = ["sb_piplu*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

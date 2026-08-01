@@ -1,0 +1,5 @@
+tensorflow==2.16.1
+numpy==1.26.4
+scikit-learn==1.5.1
+matplotlib==3.9.1
+pytest==8.2.2
