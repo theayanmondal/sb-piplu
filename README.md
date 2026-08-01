@@ -19,7 +19,7 @@ Sb-PiPLU is defined as
 $$
 \mathrm{Sb-PiPLU}(x,k)=
 \begin{cases}
-2\,\mathrm{softsign}(x)+\frac{1}{2}\left(\mathrm{softsign}(x)\right)^2, & x\leq 0 \\
+2\dot\mathrm{softsign}(x)+\frac{1}{2}\left(\mathrm{softsign}(x)\right)^2, & x\leq 0 \\
 x, & 0\lt x\leq k \\
 \frac{x}{k}, & x\gt k
 \end{cases}
